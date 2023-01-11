@@ -15,3 +15,4 @@ Chambray- 2A437E
 Steel Blue- 487FAE
 Mirage- 151A30
 ---
+background-image: linear-gradient(to right top, #01122a, #052f4c, #054f6e, #057190, #1395af);
