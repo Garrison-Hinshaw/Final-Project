@@ -39,6 +39,7 @@ app.get('/', (req, res) => {
 })
 
 
+
 app.use(express.static(path.join(__dirname, '../gdq-frontend/build', 'build')))
 
 app.listen(process.env.PORT, () => {
