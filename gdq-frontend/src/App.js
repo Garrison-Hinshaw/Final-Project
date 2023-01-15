@@ -1,15 +1,62 @@
 import "./style.css";
-import navBar from './components/navBar'
+import 'bootstrap';
+import React from "react";
+import  Home  from "../src/pages/Home";
+import NewProduct  from "./pages/NewProduct";
+import  Contact  from "./pages/Contact";
+import  AboutUs  from "./pages/AboutUs";
+// import { login } from "./components/login";
+import NavBar from "./components/navBar";
+import SiteTitle from "./components/SiteTitle";
+// import { createBrowserRouter, createRoutesFromElements, Route, Link, Outlet, RouterProvider } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import  Product from "../src/pages/Productt";
+import  PRODUCTS  from "./pages/Product";
+import { EditPro } from "./pages/EditPro";
 
-function App() {
+
+export default function App() {
+
   return (
-    <div class="Head">
-      GDQ
-      <div class="AAA">
-        <h3>The easiest way to sell, buy, and trade products online </h3>
+    <>
+      <div className="App">
+        <Router> 
+        <SiteTitle />
+        <NavBar />
+       
+          <Routes>
+            <Route exact path="/" element={<Home/>} />
+            <Route path="/contact" element={<Contact/>} />
+            <Route path="/newProduct" element={<NewProduct/>} />
+            <Route path="/aboutUs" element={<AboutUs/>} />
+
+          </Routes>
+        </Router>
+        {/* <RouterProvider router={router} /> */}
       </div>
-    </div>
+
+      
+      
+    </>
   );
 }
+//  const Root = () => {
 
-export default App;
+//   return <>
+//     <div className="Nav">
+//     <ul>
+//     <li>  <Link to="/"> Home </Link> </li>
+//      <li> <Link to="/newProduct"> Product </Link></li>
+//      <li> <Link to="/aboutUs"> AboutUs </Link></li>
+//      <li> <Link to="/contact"> Contact </Link></li>
+//      {/* <li> <Link to="/newProduct"> Product </Link></li> */}
+
+// </ul>
+//   </div>
+
+//   <div>
+//     <Outlet/>
+//   </div>
+//   </>
+
+//   }
