@@ -1,21 +1,15 @@
-const {urlencoded} = require('express')
 const express = require('express')
-const { db } = require('../../../Back-End/API\'s/rest-rant/models/comment')
-const router = express.Router()
+const { db } = require('')
+const places = express.Router()
 
-router.get('/',(req, res) => {
-    db.Place.find()
-    .then((places) =>{
-        res.render('places/index', {places})
-    })
-    .catch(err => {
-        res.render('error404')
-    })
+// Index
+
+places.get('/', (req, res) => {
+    res.json('SUPPP')
 })
 
-
-router.get('/identity', (res, res) => {
+places.get('/identity', (res, res) => {
     res.json()
 })
 
-module.exports = router
+module.exports = places
