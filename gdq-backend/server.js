@@ -37,7 +37,8 @@ app.get('/', (req, res) => {
 })
 
 
-//app.use(express.static(path.join(__dirname, '../gdq-frontend/build', 'build')))
+
+app.use(express.static(path.join(__dirname, '../gdq-frontend/build', 'build')))
 
 app.listen(process.env.PORT, () => {
   console.log("I am alive port " + process.env.PORT)
