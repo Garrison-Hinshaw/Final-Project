@@ -1,11 +1,11 @@
 require('dotenv').config()
 const express = require('express')
 const methodOverride = require('method-override')
-const app = express();
-// const router = require('./controllers/places')
+const app = express()
 const path = require('path')
+const router = require('./controllers/router')
 
-// Express Settings
+// middleware
 app.set('views', __dirname + '/views')
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
@@ -15,30 +15,14 @@ app.use(methodOverride('_method'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-// INDEX
-
-app.get('/', (req, res) => {
-res.json()
-})
-
-app.post('/addItem', async(req, res) => {
-
-})
-
-// app.use('/places', require('./controllers'))
-// app.get('*', (req, res) => {
-//     res.render('error404')
-// })
 
 
 
-app.get('/', (req, res) => {
-    res.json('home')
-})
 
 
+app.use('/router', router)
 
-app.use(express.static(path.join(__dirname, '../gdq-frontend/build', 'build')))
+app.use(express.static(path.join(__dirname, '../gdq-frontend', 'build')))
 
 app.listen(process.env.PORT, () => {
   console.log("I am alive port " + process.env.PORT)

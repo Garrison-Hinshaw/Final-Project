@@ -1,12 +1,11 @@
 const {urlencoded} = require('express')
 const express = require('express')
-const { db } = require('')
 const router = express.Router()
 
 router.get('/',(req, res) => {
-    db.Place.find()
-    .then((places) =>{
-        res.render('places/index', {places})
+    db.Router.find()
+    .then((router) =>{
+        res.render('routers/server', {router})
     })
     .catch(err => {
         res.render('error404')
@@ -14,8 +13,30 @@ router.get('/',(req, res) => {
 })
 
 
-router.get('/identity', (res, res) => {
-    res.json()
-})
+ router.get('/login', (req, res) => {
+    console.log("I'm logged in")
+     res.json()
+ })
+
+ router.get('/admin', (req, res) => {
+
+     res.json()
+ })
+
+ router.get('/user', (req, res) => {
+     res.json()
+ })
+
+ router.get('/404', (req, res) => {
+     res.json()
+ })
+
+ router.post('/addItem', (req, res) => {
+     res.json()
+ })
+
+ router.post('/comment', (req, res) => {
+     res.json()
+ })
 
 module.exports = router
