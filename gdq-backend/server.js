@@ -3,6 +3,7 @@ const express = require('express')
 const methodOverride = require('method-override')
 const app = express();
 // const router = require('./controllers/places')
+const usersRouter = require('./controllers/user')
 const path = require('path')
 
 // Express Settings
