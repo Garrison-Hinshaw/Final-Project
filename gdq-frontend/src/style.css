@@ -57,7 +57,7 @@ display: flex;
     position: absolute;
     left: 12px;
     top : 20px;
-    background-color:tan;
+    
     
     
 
@@ -65,10 +65,17 @@ display: flex;
   }
 
   .btn-logo {
-    color: peru;
+    
     font-family: 'Secular One', sans-serif;
 
   }
+
+
+  .label .form-label {
+color: dark green
+
+  }
+
 
   /* .navBar .dot {
     width: 6px;

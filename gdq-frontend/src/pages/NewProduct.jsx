@@ -10,7 +10,7 @@ export default function NewProduct(PRODUCTS) {
 
     <div class="card-group1">
     <div class="card">
-      <img class="card-img-top" src='https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb_4x3.jpg' alt="Card image cap" />
+      <img class="card-img-top" src='https://www.rei.com/media/43314827-8954-4e1e-a32b-8fd2ce0c0b99?size=576x768' alt="Card image cap" />
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
@@ -26,7 +26,7 @@ export default function NewProduct(PRODUCTS) {
       </div>
     </div>
     <div class="card">
-      <img class="card-img-top" src="" alt="Card image cap" />
+      <img class="card-img-top" src="https://moodle.com/wp-content/uploads/2021/06/22087-11.jpg" alt="Card image cap" />
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
@@ -42,7 +42,7 @@ export default function NewProduct(PRODUCTS) {
       </div>
     </div>
     <div class="card">
-      <img class="card-img-top" src="" alt="Card image cap" />
+      <img class="card-img-top" src="https://www.rhcph.dk/media/catalog/product/s/_/s_s_berkeley_script_t_shirt_i0295950ejxx.jpg" alt="Card image cap" />
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
@@ -60,7 +60,7 @@ export default function NewProduct(PRODUCTS) {
     </div>
     <div class="card-group-2">
       <div class="card">
-        <img class="card-img-top" src="..." alt="Card image cap" />
+        <img class="card-img-top" src="https://m.media-amazon.com/images/I/51yWOlRmzML.jpg" alt="Card image cap" />
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">
@@ -76,7 +76,7 @@ export default function NewProduct(PRODUCTS) {
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="..." alt="Card image cap" />
+        <img class="card-img-top" src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6442/6442031cv13d.jpg" alt="Card image cap" />
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">
@@ -92,7 +92,7 @@ export default function NewProduct(PRODUCTS) {
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="..." alt="Card image cap" />
+        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRydPp79R2E_H5DBYoivxTeJFLMY204dN55_g&usqp=CAU" alt="Card image cap" />
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">
