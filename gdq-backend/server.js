@@ -2,7 +2,7 @@ require('dotenv').config()
 const express = require('express')
 const methodOverride = require('method-override')
 const app = express()
-const usersRouter = require('./controllers/user')
+//const usersRouter = require('./controllers/user')
 const path = require('path')
 const router = require('./controllers/router')
 
