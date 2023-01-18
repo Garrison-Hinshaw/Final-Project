@@ -1,0 +1,162 @@
+@import url('https://fonts.google.com/specimen/Secular+One?query=Secu');
+
+body {
+    /* background-color: #01122a; */
+    background-image: linear-gradient(to right, #01122a, #052f4c, #054f6e, #057190, #1395af);
+    font-family: 'Secular One', sans-serif;
+    font-size: medium;
+
+}
+
+.Head {
+    text-align: center;
+    text-decoration: solid;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+}
+
+.AAA{
+color: white;
+font-size: small;
+font-weight: bolder;
+}
+
+.Nav ul{
+padding: 0;
+margin: 0;
+display: flex;
+
+
+
+}
+
+.card-img-top {
+  width:100px ;
+  height: auto;
+
+}
+
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #487fae;
+    display: block;
+    width: 100%;
+    height: 40px;
+    box-shadow: 1px 1px 5px 1px black;
+    border-radius: 5px ;
+
+  }
+
+  .button-logo{
+    border-radius: 50%;
+    float: left;
+    position: absolute;
+    left: 12px;
+    top : 20px;
+    
+    
+    
+
+
+  }
+
+  .btn-logo {
+    
+    font-family: 'Secular One', sans-serif;
+
+  }
+
+
+
+
+  /* .navBar .dot {
+    width: 6px;
+    height: 6px;
+    background: #fddb3a;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .navBar a:nth-child(1):hover ~ .dot {
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navBar a:nth-child(2):hover ~ .dot {
+    -webkit-transform: translateX(110px);
+    transform: translateX(110px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navBar a:nth-child(3):hover ~ .dot {
+    -webkit-transform: translateX(200px);
+    transform: translateX(200px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navBar a:nth-child(4):hover ~ .dot {
+    -webkit-transform: translateX(285px);
+    transform: translateX(285px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+   */
+
+
+  .links a{
+    float: left;
+    color: whitesmoke;
+    text-shadow: #555;
+    font-family: 'Secular One', sans-serif;
+    text-align: left;
+    text-indent: 250px;
+    font-size: larger;
+    font-style: oblique;
+  }
+  
+  .navBar {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* justify-content: space-between;
+    gap: 2rem; */
+    padding: 0;
+  }
+  
+  .Nav li .active {
+ background-color: #555;
+
+  }
+
+  
+  .Nav ul :hover {
+    background-color: #777;
+    
+   
+     }
+
+
+
+
+
+
+
+
