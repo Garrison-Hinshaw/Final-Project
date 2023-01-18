@@ -54,4 +54,11 @@ router.get("/me", async (req, res, next) => {
   } catch (err) {
     res.status(401).json({ message: "Couldn't Authenticate" });
   }
+},
+async(req, res, next)=>{
+    let user = await User.findOne({where:{id : req.user.id}, attributes:{exclude:["password"]}});
+    if(user === null){
+        res.status(404).json({message : "User not found"});
+    }
+    res.status(200).json(user)
 });
