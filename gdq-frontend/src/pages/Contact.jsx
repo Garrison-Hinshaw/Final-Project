@@ -16,4 +16,4 @@ export default function Contact() {
       <h2>Phone Number: 888-555-2222</h2>
     </div>
   );
-}
+};
