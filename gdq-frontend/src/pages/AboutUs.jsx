@@ -16,3 +16,4 @@ export default function aboutUs() {
       </h2>
     </div>
   );
+}

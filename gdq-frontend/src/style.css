@@ -5,6 +5,7 @@ body {
     background-image: linear-gradient(to right, #01122a, #052f4c, #054f6e, #057190, #1395af);
     font-family: 'Secular One', sans-serif;
     font-size: medium;
+    
 }
 
 .Head {
@@ -68,6 +69,7 @@ border: 1px solid black;
   border: 2px solid black;
 background-color: white;
 gap: 1.5rem;
+font-family: 'Secular One', sans-serif;
  }
 
  .pic1{
@@ -79,6 +81,7 @@ gap: 1.5rem;
   text-align: center;
   color: whitesmoke;
   text-transform: capitalize;
+  
 
  }
 
@@ -86,12 +89,14 @@ gap: 1.5rem;
   text-align: center;
   color: whitesmoke;
   /* text-transform: capitalize; */
+  font-family: 'Secular One', sans-serif;
  }
 
  .aboutUs{
   text-align: center;
   color: whitesmoke;
   /* text-transform: capitalize; */
+  font-family: 'Secular One', sans-serif;
  }
 
 
@@ -118,6 +123,7 @@ padding-block: 2rem;
     cursor: pointer;
     border-radius: 4px;
     transition: 0.4s;
+    font-family: 'Secular One', sans-serif;
    
   
   }
@@ -140,6 +146,7 @@ background-color:#054f6e ;
     cursor: pointer;
     border-radius: 4px;
     transition: 0.4s;
+    font-family: 'Secular One', sans-serif;
  
   
   }
