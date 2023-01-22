@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 export default function SiteTitle () {
@@ -13,6 +14,18 @@ return (
   GDQ
   </div>
 </button>
+ <div className='login'>
+ {/* <Link to={}> */}
+    <button class="login-btn">
+    Login
+    </button> 
+    {/* </Link> */}
+    {/* <Link to={}> */}
+    <button class="reg-btn" >
+    Register
+    </button>
+    {/* </Link> */}
+    </div>
 
     </div>  
 )

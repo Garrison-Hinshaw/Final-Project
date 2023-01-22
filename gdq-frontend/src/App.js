@@ -13,7 +13,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import  Product from "../src/pages/Productt";
 import  PRODUCTS  from "./pages/Product";
 import { EditPro } from "./pages/EditPro";
-
+import login from "./pages/login";
 
 export default function App() {
 
@@ -22,8 +22,9 @@ export default function App() {
       <div className="App">
         <Router> 
         <SiteTitle />
+       <login/>
         <NavBar />
-       
+       <br/>
           <Routes>
             <Route exact path="/" element={<Home/>} />
             <Route path="/contact" element={<Contact/>} />

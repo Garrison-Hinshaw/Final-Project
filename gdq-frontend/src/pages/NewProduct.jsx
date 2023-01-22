@@ -20,9 +20,6 @@ export default function NewProduct(PRODUCTS) {
         <p class="card-text">
           <small class="text-muted">Last updated 3 mins ago</small>
         </p>
-        <button class="btn-one">
-          View
-        </button>
       </div>
     </div>
     <div class="card">
@@ -36,9 +33,6 @@ export default function NewProduct(PRODUCTS) {
         <p class="card-text">
           <small class="text-muted">Last updated 3 mins ago</small>
         </p>
-        <button class="btn-two">
-          View
-        </button>
       </div>
     </div>
     <div class="card">
@@ -53,9 +47,6 @@ export default function NewProduct(PRODUCTS) {
         <p class="card-text">
           <small class="text-muted">Last updated 3 mins ago</small>
         </p>
-        <button class="btn-3">
-          View
-        </button>
       </div>
     </div>
     <div class="card-group-2">
@@ -70,9 +61,6 @@ export default function NewProduct(PRODUCTS) {
           <p class="card-text">
             <small class="text-muted">Last updated 3 mins ago</small>
           </p>
-          <button class="btn-one">
-            View
-          </button>
         </div>
       </div>
       <div class="card">
@@ -86,9 +74,6 @@ export default function NewProduct(PRODUCTS) {
           <p class="card-text">
             <small class="text-muted">Last updated 3 mins ago</small>
           </p>
-          <button class="btn-two">
-            View
-          </button>
         </div>
       </div>
       <div class="card">
@@ -103,9 +88,6 @@ export default function NewProduct(PRODUCTS) {
           <p class="card-text">
             <small class="text-muted">Last updated 3 mins ago</small>
           </p>
-          <button class="btn-3">
-            View
-          </button>
         </div>
       </div>
     </div>
