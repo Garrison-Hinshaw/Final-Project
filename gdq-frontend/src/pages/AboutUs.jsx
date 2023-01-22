@@ -1,8 +1,10 @@
+import React from "react";
+
 export default function aboutUs() {
   return (
     <div className="aboutUs">
     <h1>
-        AboutUs:
+        About Us:
     </h1>
       <h2>
         We are a buy,sell and trading service we started business recently in
