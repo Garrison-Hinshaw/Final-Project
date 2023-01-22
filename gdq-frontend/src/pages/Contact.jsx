@@ -2,6 +2,9 @@ import React from "react";
 import { Card } from "react-bootstrap";
 
 export default function Contact() {
+  const saveUser = async () =>{
+    
+  }
   return (
     <div class="contact-form">
     <div class="mb-3">
