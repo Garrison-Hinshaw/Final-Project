@@ -23,9 +23,9 @@ app.use(express.urlencoded({ extended: true }))
 
 
 
-app.use(usersRouter)
+app.use("/users",usersRouter)
 app.use('/router', router)
-app.use(productController)
+app.use("/product",productController)
 
 app.use(express.static(path.join(__dirname, '../gdq-frontend', 'build')))
 
