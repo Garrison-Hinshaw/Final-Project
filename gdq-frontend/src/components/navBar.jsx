@@ -18,7 +18,7 @@ export default function NavBar() {
            Contact
           </Link>
           <Link to="/AboutUs"> 
-           AboutUs
+           About Us
           </Link>
           {/* <Link to="/"> 
            newProduct

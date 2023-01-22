@@ -6,6 +6,7 @@ import  Product  from "./Productt";
 import NavBar from "../components/navBar";
 
 export default function NewProduct(PRODUCTS) {
+  
   return (
 
     <div class="card-group1">
