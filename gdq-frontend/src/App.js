@@ -13,7 +13,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import  Product from "../src/pages/Productt";
 import  PRODUCTS  from "./pages/Product";
 import { EditPro } from "./pages/EditPro";
+import "bootstrap/dist/css/bootstrap.min.css"
 
+import Auth from "./components/login"
 
 export default function App() {
 
@@ -29,6 +31,7 @@ export default function App() {
             <Route path="/contact" element={<Contact/>} />
             <Route path="/newProduct" element={<NewProduct/>} />
             <Route path="/aboutUs" element={<AboutUs/>} />
+            <Route path="/login" element={<Auth />} />
 
           </Routes>
         </Router>
