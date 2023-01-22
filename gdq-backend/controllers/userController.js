@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Models = require("./../models");
+const User = require("User");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const dotenv = require("dotenv");
@@ -62,3 +62,5 @@ async(req, res, next)=>{
     }
     res.status(200).json(user)
 });
+
+module.exports = router
