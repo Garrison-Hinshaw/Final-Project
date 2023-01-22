@@ -18,11 +18,11 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 import loginPage from "./components/login";
 import Auth from "./components/login"
-
+import CurrentUserProvider from "./contexts/currentUser";
 export default function App() {
 
   return (
-    <>
+    <CurrentUserProvider>
       <div className="App">
         <Router> 
         <SiteTitle />
@@ -43,7 +43,7 @@ export default function App() {
 
       
       
-    </>
+    </CurrentUserProvider>
   );
 }
 //  const Root = () => {
