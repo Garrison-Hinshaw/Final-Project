@@ -1,5 +1,7 @@
 import React from "react";
+
 // import { Card } from "react-bootstrap";
+
 
 
 export default function Contact() {
@@ -7,15 +9,19 @@ export default function Contact() {
   
 
   return (
-  <div class="contact-form">
-    <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+
+    <div className="contactUs">
+      <br />
+      <h1> Contact Us With Any Problems With Our Items Or Website:</h1>
+      <h2>Email:</h2>
+      <h3>GDQ111@ymail.com</h3>
+      <br />
+      <h2>Social Media:</h2>
+      <h3>Twitter:GDQ</h3>
+      <h3>Instagram:__GDQ</h3>
+      <br />
+      <h1>For 24/7 Support Call Our Support Hot Line:</h1>
+      <h2>Phone Number: 888-555-2222</h2>
     </div>
-    <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
- </div>
-  );
-}
+);
+};

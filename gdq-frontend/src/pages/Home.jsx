@@ -1,4 +1,10 @@
 import React from "react";
+import { Container, Row, Col } from 'react-bootstrap';
+import NewProduct from "./NewProduct";
+
+
+
+import { Container, Row, Col } from 'react-bootstrap';
 
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -18,10 +24,7 @@ return (
               </Col>
             </Row>
         </Container>
-    
     </div>
-
 )
-
-
-}
+    }
+    
