@@ -1,6 +1,21 @@
 import React, { useState } from "react"
 import "../style.css";
 
+const [state, useState] = setState([])
+
+  const getContact = async () => {
+    console.log( "I'm in!")
+    const contact = await fetch("/contact")
+    console.log("ring! ring!", contact)
+    const cleanContact = await contact.json
+
+
+    console.log("clean contact", cleanContact)
+     setState (cleanContact)
+  }
+
+  console.log("state", state)
+
 
 export default function (props) {
   let [authMode, setAuthMode] = useState("signin")
@@ -93,10 +108,11 @@ export default function (props) {
           </div>
           <p className="text-center mt-2">
             Forgot <a href="#">password?</a>
-          </p>
-        </div>
-      </form>
-    </div>
-  )
-}
- 
+            </p>
+            </div>
+            </form>
+           </div>
+            );
+            };
+
+            

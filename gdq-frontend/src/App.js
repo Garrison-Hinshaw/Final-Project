@@ -14,7 +14,7 @@ import  Product from "../src/pages/Productt";
 import  PRODUCTS  from "./pages/Product";
 import { EditPro } from "./pages/EditPro";
 import "bootstrap/dist/css/bootstrap.min.css"
-
+import loginPage from "./components/login";
 import Auth from "./components/login"
 
 export default function App() {
@@ -32,7 +32,7 @@ export default function App() {
             <Route path="/newProduct" element={<NewProduct/>} />
             <Route path="/aboutUs" element={<AboutUs/>} />
             <Route path="/login" element={<Auth />} />
-
+            <Route path="/loginPage" element={<loginPage />} />
           </Routes>
         </Router>
         {/* <RouterProvider router={router} /> */}
