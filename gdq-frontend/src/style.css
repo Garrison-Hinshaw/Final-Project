@@ -5,7 +5,6 @@ body {
     background-image: linear-gradient(to right, #01122a, #052f4c, #054f6e, #057190, #1395af);
     font-family: 'Secular One', sans-serif;
     font-size: medium;
-
 }
 
 .Head {
@@ -26,15 +25,11 @@ font-weight: bolder;
 padding: 0;
 margin: 0;
 display: flex;
-
-
-
 }
 
 .card-img-top {
   width:100px ;
   height: auto;
-
 }
 
 .navBar {
@@ -48,7 +43,11 @@ display: flex;
     height: 40px;
     box-shadow: 1px 1px 5px 1px black;
     border-radius: 5px ;
-
+  }
+  .container {
+  display: grid;
+  gap: 2rem;
+border: 1px solid black;
   }
 
   .button-logo{
@@ -57,75 +56,100 @@ display: flex;
     position: absolute;
     left: 12px;
     top : 20px;
-    
-    
-    
-
-
   }
 
   .btn-logo {
-    
     font-family: 'Secular One', sans-serif;
-
   }
 
+ .card-1{
+  display: grid;
+  /* grid-template-columns: 100px; */
+  border: 2px solid black;
+background-color: white;
+gap: 1.5rem;
+ }
+
+ .pic1{
+  width: 100px;
+  height: 10p0x;
+ }
+
+ .head{
+  text-align: center;
+  color: whitesmoke;
+  text-transform: capitalize;
+
+ }
+
+ .contactUs{
+  text-align: center;
+  color: whitesmoke;
+  /* text-transform: capitalize; */
+ }
+
+ .aboutUs{
+  text-align: center;
+  color: whitesmoke;
+  /* text-transform: capitalize; */
+ }
 
 
 
-  /* .navBar .dot {
-    width: 6px;
-    height: 6px;
-    background: #fddb3a;
-    border-radius: 50%;
-    opacity: 0;
-    -webkit-transform: translateX(30px);
-    transform: translateX(30px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
+  .card{
+    display: grid;
+ /* background-color: black; */
+padding: 30px;
+border: 2px solid black;
+grid-template-columns:repeat(3, 1fr);
+padding-block: 2rem;
+  }
+    
+  .login-btn {
+    color: black;
+    background-color: whitesmoke;
+    border: 1px solid black;
+   float: right;
+   padding-right: 1px;
+    position: relative;
+    width: 100px;
+    bottom: 90px;
+    right: 140px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.4s;
+   
+  
   }
 
-  .navBar a:nth-child(1):hover ~ .dot {
-    -webkit-transform: translateX(30px);
-    transform: translateX(30px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    opacity: 1;
+  button:hover {
+background-color:#054f6e ;
   }
   
-  .navBar a:nth-child(2):hover ~ .dot {
-    -webkit-transform: translateX(110px);
-    transform: translateX(110px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    opacity: 1;
-  }
   
-  .navBar a:nth-child(3):hover ~ .dot {
-    -webkit-transform: translateX(200px);
-    transform: translateX(200px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    opacity: 1;
-  }
+  .reg-btn {
+    color: black;
+    background-color: whitesmoke;
+    border: 1px solid black;
+   float: right;
+   padding-right: px;
+    position: relative;
+    width: 135px;
+    bottom: 90px;
+    left: 98px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.4s;
+ 
   
-  .navBar a:nth-child(4):hover ~ .dot {
-    -webkit-transform: translateX(285px);
-    transform: translateX(285px);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    opacity: 1;
   }
-   */
 
 
   .links a{
     float: left;
     color: whitesmoke;
-    text-shadow: #555;
     font-family: 'Secular One', sans-serif;
-    text-align: left;
-    text-indent: 250px;
+    text-indent: 225px;
     font-size: larger;
     font-style: oblique;
   }
@@ -136,22 +160,10 @@ display: flex;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    /* justify-content: space-between;
-    gap: 2rem; */
     padding: 0;
   }
   
-  .Nav li .active {
- background-color: #555;
 
-  }
-
-  
-  .Nav ul :hover {
-    background-color: #777;
-    
-   
-     }
 
 
 /* login */

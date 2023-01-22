@@ -13,19 +13,22 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import  Product from "../src/pages/Productt";
 import  PRODUCTS  from "./pages/Product";
 import { EditPro } from "./pages/EditPro";
+
 import "bootstrap/dist/css/bootstrap.min.css"
+
 import loginPage from "./components/login";
 import Auth from "./components/login"
-
+import CurrentUserProvider from "./contexts/currentUser";
 export default function App() {
 
   return (
-    <>
+    <CurrentUserProvider>
       <div className="App">
         <Router> 
         <SiteTitle />
+       <login/>
         <NavBar />
-       
+       <br/>
           <Routes>
             <Route exact path="/" element={<Home/>} />
             <Route path="/contact" element={<Contact/>} />
@@ -40,7 +43,7 @@ export default function App() {
 
       
       
-    </>
+    </CurrentUserProvider>
   );
 }
 //  const Root = () => {
