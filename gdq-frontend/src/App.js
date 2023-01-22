@@ -13,7 +13,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import  Product from "../src/pages/Productt";
 import  PRODUCTS  from "./pages/Product";
 import { EditPro } from "./pages/EditPro";
-import login from "./pages/login";import "bootstrap/dist/css/bootstrap.min.css"
+
+import "bootstrap/dist/css/bootstrap.min.css"
+
 import loginPage from "./components/login";
 import Auth from "./components/login"
 

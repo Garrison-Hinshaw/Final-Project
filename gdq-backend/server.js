@@ -1,11 +1,15 @@
 require('dotenv').config()
 const express = require('express')
 const methodOverride = require('method-override')
-const app = express();
-// const router = require('./controllers/places')
+const app = express()
+const usersRouter = require('./controllers/userController')
+const productController = require('./controllers/productsController')
 const path = require('path')
-
-// Express Settings
+const router = require('./controllers/router')
+const cors = require("cors")
+const { Sequelize } = require('sequelize')
+// middleware
+app.use(cors())
 app.set('views', __dirname + '/views')
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
@@ -15,30 +19,15 @@ app.use(methodOverride('_method'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-// INDEX
-
-app.get('/', (req, res) => {
-res.json()
-})
-
-app.post('/addItem', async(req, res) => {
-
-})
-
-// app.use('/places', require('./controllers'))
-// app.get('*', (req, res) => {
-//     res.render('error404')
-// })
 
 
 
-app.get('/', (req, res) => {
-    res.json('home')
-})
 
+app.use(usersRouter)
+app.use('/router', router)
+app.use(productController)
 
-
-app.use(express.static(path.join(__dirname, '../gdq-frontend/build', 'build')))
+app.use(express.static(path.join(__dirname, '../gdq-frontend', 'build')))
 
 app.listen(process.env.PORT, () => {
   console.log("I am alive port " + process.env.PORT)
