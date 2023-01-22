@@ -1,23 +1,27 @@
 import React, { useState } from "react"
 import "../style.css";
 
-const [state, useState] = setState([])
-
-  const getContact = async () => {
-    console.log( "I'm in!")
-    const contact = await fetch("/contact")
-    console.log("ring! ring!", contact)
-    const cleanContact = await contact.json
 
 
-    console.log("clean contact", cleanContact)
-     setState (cleanContact)
-  }
-
-  console.log("state", state)
 
 
 export default function (props) {
+
+    const [state, setState, useState] = setState([])
+
+    const login = async () => {
+      console.log( "I'm in!")
+      const login = await fetch("/router")
+      console.log("ring! ring!", login)
+      const cleanlogin = await login.json
+  
+  
+      console.log("clean login", cleanlogin)
+       setState (cleanlogin)
+    }
+  
+    console.log("state", state)
+
   let [authMode, setAuthMode] = useState("signin")
 
   const changeAuthMode = () => {
