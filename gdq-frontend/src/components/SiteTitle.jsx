@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import login from "./login";
 
 
 export default function SiteTitle () {
@@ -15,11 +16,12 @@ return (
   </div>
 </button>
  <div className='login'>
- {/* <Link to={}> */}
+ <Link to={'/login'}>
     <button class="login-btn">
     Login
+    
     </button> 
-    {/* </Link> */}
+  </Link>  
     {/* <Link to={}> */}
     <button class="reg-btn" >
     Register

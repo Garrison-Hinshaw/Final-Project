@@ -16,7 +16,7 @@ import { EditPro } from "./pages/EditPro";
 
 import "bootstrap/dist/css/bootstrap.min.css"
 
-import loginPage from "./components/login";
+import login from "./components/login";
 import Auth from "./components/login"
 import CurrentUserProvider from "./contexts/currentUser";
 export default function App() {
