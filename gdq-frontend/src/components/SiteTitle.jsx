@@ -16,7 +16,7 @@ return (
   </div>
 </button>
  <div className='login'>
- <Link to={'/login'}>
+ <Link to={'loginPage'}>
     <button class="login-btn">
     Login
     
