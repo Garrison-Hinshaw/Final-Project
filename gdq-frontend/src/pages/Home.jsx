@@ -5,8 +5,8 @@ import "../style.css";
 export default function Home () {
 return (
     <div> 
-        <Container className="gal-wrap">
-            <Row>
+        
+            <Row className="gal-row">
               <Col className="grid" xs={6} md={4}>
                 <img src={""} alt="image1" />
               </Col>
@@ -22,7 +22,7 @@ return (
                 <img src={""} alt="image1" />
               </Col>
             </Row>
-        </Container>
+        
     </div>
 )
     

@@ -222,8 +222,12 @@ label {
   
 }
 
-.gal-wrap {
+.gal-cout {
   border-style: none;
-  display: contents;
+}
 
+.gal-row {
+  border-left:300px;
+  display: inline-block;
+  margin-left: 150px;
 }
