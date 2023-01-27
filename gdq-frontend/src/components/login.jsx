@@ -1,8 +1,25 @@
+import "../style.css";
 import React, { useState, useEffect, useContext } from "react"
 import "../style.css";
 import { CurrentUserContext } from "../contexts/currentUser";
 import {useNavigate} from "react-router-dom"
 export default function (props) {
+
+    const [state, setState, useState] = setState([])
+
+    const login = async () => {
+      console.log( "I'm in!")
+      const login = await fetch("/router")
+      console.log("ring! ring!", login)
+      const cleanlogin = await login.json
+  
+  
+      console.log("clean login", cleanlogin)
+       setState (cleanlogin)
+    }
+  
+    console.log("state", state)
+
   let [authMode, setAuthMode] = useState("signin")
   let [credentials, setCredentials] = useState({
     email: "",

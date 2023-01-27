@@ -212,6 +212,22 @@ label {
   color: rgb(34, 34, 34);
 }
 
+.grid {
+  width: 23em;
+  height: 20em;
+  border: 5px solid gold;
+  border-radius: 25pt;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  
+}
 
+.gal-cout {
+  border-style: none;
+}
 
-
+.gal-row {
+  border-left:300px;
+  display: inline-block;
+  margin-left: 150px;
+}
